@@ -1495,7 +1495,7 @@ body.ie ._ibg img {
   margin-left: 36px;
 }
 
-.header__top-consultation-img + .header__top-consultation-img {
+.header__top-consultation-img:nth-child(2) {
   display: none;
 }
 
@@ -1699,6 +1699,11 @@ body.ie ._ibg img {
 }
 
 .mob-menu__help img {
+  width: 40px;
+  margin: 0px 25px 0px 0px;
+}
+
+.mob-menu__help picture img {
   width: 40px;
   margin: 0px 25px 0px 0px;
 }
@@ -3096,8 +3101,9 @@ body.ie ._ibg img {
   }
 
   .main__decor-white {
-    top: 80px;
-    left: 125px;
+    top: 0px;
+    left: 0px;
+    width: 30%;
   }
 
   .main__box {
